@@ -52,7 +52,6 @@ a:focus{
     border-radius: 4px;
     position: relative;
     padding: 1.8em;
-    overflow: scroll;
 }
 .content{
     padding: 1em;
@@ -142,5 +141,7 @@ td:nth-of-type(1){
 @media (min-widht:550px){
     .content{
         height: 500px;
+        overflow: scroll;
+
     }
 }
